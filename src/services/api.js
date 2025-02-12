@@ -1,4 +1,5 @@
-require("dotenv").config();
+const dotenv = require("dotenv");
+
 const API_KEY = process.env.API_KEY;
 const BASE_URL = "https://api.themoviedb.org/3";
 
